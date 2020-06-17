@@ -134,7 +134,6 @@ p{
   align-items: center;
   justify-content: center;
   justify-content: space-around;
-  /* margin-bottom: 10px; */
   position: relative;
   top: -50px;
   z-index: 1;
@@ -172,8 +171,6 @@ strong{
     margin-top: 50vh;
     height: 50vh;
   }
-  .attribution { display: none; 
-  }
   #storage-left{
     width: 150px;
     margin: 0;
@@ -186,7 +183,6 @@ strong{
     width: 30%;
     margin-top: 0;
     margin-bottom: 0;
-    /* margin-right: 20px; */
     position: relative;
     bottom: 25vh;
   }
@@ -221,11 +217,3 @@ strong{
     margin-left: auto;
   }
 }
-
-
-
-
-/* <!-- <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="github.com/obioraigboanusi" target="_blank">Obiora Igboanusi</a>.
-  </footer> --> */
