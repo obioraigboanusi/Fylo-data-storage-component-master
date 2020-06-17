@@ -2,49 +2,55 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Fylo data storage component</title>
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Raleway" type="text/css">
 </head>
 <body>
-  <section>
-    <div>
-        <i></i>
-        <h1></h1>
-    </div>
-    <div>
-        <div>
-          <i></i>
+  <main>
+      <header id="header" class="">
+          <div style="width: 50% ;">
+            <div>
+                <img id="logo" src="images/logo.svg" alt="logo">
+            </div>
+            <div id="nav-menu">
+                <a href="#">
+                  <div class="container nav-div">
+                    <img src="images/icon-document.svg" alt="">
+                  </div>
+                </a>
+                <a href="#">
+                  <div class="container nav-div">
+                    <img src="images/icon-folder.svg" alt="">
+                  </div>
+                </a>
+                <a href="#">
+                  <div class="container nav-div">
+                    <img src="images/icon-upload.svg" alt="">
+                  </div>
+                </a>
+              </div>
+          </div>
+      </header>
+      <section class="container">
+        <p>You've used <strong>815 GB</strong> of your storage</p>
+        <div id="rader">
+          <div id="rader-fill"> <img id="favicom" src="images/favicon-32x32.png" alt=""></div>
         </div>
-        <div>
-          <i></i>
+        <div id="storage-range">
+          <span>0 gb</span>
+          <span>1000 gb</span>
         </div>
-        <div>
-          <i></i>
-        </div>
-    </div>
-  </section>
-  <section>
-    <p></p>
-    <div></div>
-    <div>
-      <span></span>
-      <span></span>
-    </div>
-  </section>
-  <div>
-    <p> <strong></strong> gb left</p>
-  </div>
-
+      </section>
+      <div id="storage-left" class="container">
+         <strong>185</strong><p>gb left</p>
+      </div>
+  </main>
   <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="github.com/obioraigboanusi" target="_blank">Obiora Igboanusi</a>.
   </footer>
 </body>
 </html>
