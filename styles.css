@@ -128,7 +128,7 @@ p{
   background-color: lavender;
   padding: 10px;
   text-transform: uppercase;
-  width: 40%;
+  width: 150px;
   text-align: center;
   display: flex;
   align-items: center;
@@ -157,12 +157,15 @@ strong{
 }
 .attribution a { color: hsl(228, 45%, 44%);
 }
-@media screen and (min-width: 700px){
+@media screen and (min-width: 800px){
   body{
     font-family: 'Raleway', sans-serif;
     background-color: hsl(229, 57%, 11%);
   }
   main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-image: url('images/bg-desktop.svg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -172,20 +175,20 @@ strong{
   .attribution { display: none; 
   }
   #storage-left{
-    width: 50%;
+    width: 150px;
     margin: 0;
     position: relative;
-    top: -39vh;
-    right: 0;
+    top: -30vh;
+    right: -50px;
     z-index: 1;
   }
   header{
-    width: 25%;
+    width: 30%;
     margin-top: 0;
     margin-bottom: 0;
-    margin-right: 20px;
+    /* margin-right: 20px; */
     position: relative;
-    bottom: 15vh;
+    bottom: 25vh;
   }
   section{
     display: flex;
@@ -193,18 +196,15 @@ strong{
     justify-content: space-around;
     align-items: center;
     width: 40%;
-    margin-top: 0;
-    margin-bottom: 0;
+    position: relative;
+    bottom: 25vh;
   }
   #rader-div{ 
-    width: 100%;
-    min-width: 250px;
-  max-width: 400px;
+    min-width: 300px;
+    max-width: 400px;
     height: 130px;
-    margin-top: 0;
-    margin-bottom: 0;
     position: relative;
-    bottom: 7vh;
+    bottom: -8vh;
   }
   #raper-all{
     display: flex;
