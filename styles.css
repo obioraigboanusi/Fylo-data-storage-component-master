@@ -12,6 +12,7 @@ main{
   background-image: url('images/bg-mobile.svg');
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
 }
 #raper-all{
   display: flex;
@@ -125,7 +126,7 @@ p{
   font-size: 0.6em;
 }
 #storage-left{
-  background-color: lavender;
+  background-color: hsl(243, 100%, 93%);
   padding: 10px;
   text-transform: uppercase;
   width: 150px;
@@ -137,10 +138,13 @@ p{
   position: relative;
   top: -50px;
   z-index: 1;
+  border-top-right-radius: 10px 10px;
+  border-top-left-radius: 10px 10px;
+  border-bottom-left-radius: 10px 10px;
+  border-bottom-right-radius: 10px 10px;
 }
 #rader-div{
   padding-bottom: 50px;
-  /* text-align: center; */
 }
 strong{
   font-family: 'Raleway', sans-serif;
@@ -151,10 +155,6 @@ strong{
 }
 #storage-left p{
   color: hsl(229, 7%, 55%);
-}
-.attribution { font-size: 11px; text-align: center; 
-}
-.attribution a { color: hsl(228, 45%, 44%);
 }
 @media screen and (min-width: 800px){
   body{
@@ -174,10 +174,21 @@ strong{
   #storage-left{
     width: 150px;
     margin: 0;
+    border-bottom-right-radius: 0px 0px;
     position: relative;
-    top: -30vh;
-    right: -50px;
+    top: -20vh;
+    right: -18%;
     z-index: 1;
+  }
+  #storage-left:after{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-top: 20px solid hsl(243, 100%, 93%);
+    content: '';
+    top:100%;
+    right: -0%;
   }
   header{
     width: 30%;
