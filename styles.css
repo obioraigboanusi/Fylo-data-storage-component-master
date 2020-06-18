@@ -46,7 +46,7 @@ header{
 .container{
   border-radius: 10px;
 }
-section{
+#section{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -197,7 +197,7 @@ strong{
     position: relative;
     bottom: 25vh;
   }
-  section{
+  #section{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
